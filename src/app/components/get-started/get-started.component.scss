@@ -1,0 +1,35 @@
+.hero-get-started {
+  &::before,
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: inherit;
+  }
+  &::before {
+    background: linear-gradient(
+      157.81deg,
+      #def9fa -43.27%,
+      #bef3f5 -21.24%,
+      #9dedf0 12.19%,
+      #7de7eb 29.82%,
+      #5ce1e6 51.94%,
+      #33bbcf 90.29%
+    );
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  span {
+    opacity: 0.8;
+  }
+  &:hover::before {
+    opacity: 1;
+  }
+  &:hover span {
+    opacity: 1;
+  }
+}

@@ -1,6 +1,4 @@
-<header
-  [ngClass]="['header', 'sm:px-16', 'flex py-6 justify-center items-center']"
->
+<header [ngClass]="['header', 'flex justify-center items-center']">
   <nav class="w-full flex justify-between items-center">
     <img
       src="../../assets/logo.svg"
@@ -19,10 +17,11 @@
     <ul
       ng-init="navLinks"
       [ngClass]="[
-        'flex gap-5 nav-bar ',
-        'max-sm:absolute max-sm:flex-col max-sm:bg-gradient-to-br from-gray-700 to-gray-950',
+        'flex gap-5 nav-bar',
+        'max-sm:absolute max-sm:flex-col bg-black-gradient',
+
         toggle
-          ? 'max-sm:flex max-sm:top-28 max-sm:right-5 max-sm:py-5 max-sm:px-10 max-sm:rounded-xl'
+          ? 'max-sm:flex sidebar max-sm:top-28 max-sm:right-8 max-sm:py-5 max-sm:px-10 max-sm:rounded-xl'
           : 'max-sm:hidden'
       ]"
     >

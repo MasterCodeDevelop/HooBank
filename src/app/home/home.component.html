@@ -1,0 +1,58 @@
+<section id="home" [ngClass]="['flex flex-col gap-5', 'md:flex-row']">
+  <!--######### HERO #########-->
+  <div class="flex flex-1 justify-center items-start flex-col">
+    <div
+      class="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2"
+    >
+      <img
+        src="../../assets/discount.svg"
+        alt="discount"
+        class="w-[32px] h-[32px]"
+      />
+      <p
+        class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] ml-2"
+      >
+        <span class="text-white">20%</span> Discount For{{ ' ' }}
+        <span class="text-white">1 Month</span> Account
+      </p>
+    </div>
+
+    <div class="flex flex-row justify-between items-center w-full">
+      <h1
+        class=""
+        [ngClass]="[
+          'flex-1 font-poppins font-semibold text-[52px] text-white',
+          'text-[52px] leading-[75px]',
+          'ss:text-[72px] ss:leading-[100.8px]'
+        ]"
+      >
+        The Next <br class="sm:block hidden" />{{ ' ' }}
+        <span class="text-gradient">Generation</span>{{ ' ' }}
+      </h1>
+      <div class="ss:flex hidden md:mr-4 mr-0">
+        <app-get-started></app-get-started>
+      </div>
+    </div>
+
+    <h1
+      class="    "
+      [ngClass]="[
+        'w-full font-poppins font-semibold  text-white',
+        'text-[52px] leading-[75px] ',
+        'ss:text-[68px] ss:leading-[100.8px]'
+      ]"
+    >
+      Payment Method.
+    </h1>
+
+    <p
+      class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5"
+    >
+      Our team of experts uses a methodology to identify the credit cards most
+      likely to fit your needs. We examine annual percentage rates, annual fees.
+    </p>
+  </div>
+  <div [ngClass]="['flex justify-center items-center', 'ss:hidden']">
+    <app-get-started></app-get-started>
+  </div>
+</section>
