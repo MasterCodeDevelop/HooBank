@@ -1,4 +1,4 @@
-<section id="home" [ngClass]="['flex flex-col', 'md:flex-row']">
+<section id="home" [ngClass]="['flex flex-col gap-5', 'md:flex-row']">
   <!--######### HERO #########-->
   <div class="flex flex-1 justify-center items-start flex-col">
     <div
@@ -30,8 +30,7 @@
         <span class="text-gradient">Generation</span>{{ ' ' }}
       </h1>
       <div class="ss:flex hidden md:mr-4 mr-0">
-        <!--## add GetStarted ##-->
-        <span>Get-Started</span>
+        <app-get-started></app-get-started>
       </div>
     </div>
 
@@ -54,7 +53,6 @@
     </p>
   </div>
   <div [ngClass]="['flex justify-center items-center', 'ss:hidden']">
-    <!--## add GetStarted ##-->
-    <span>Get-Started</span>
+    <app-get-started></app-get-started>
   </div>
 </section>
