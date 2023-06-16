@@ -9,6 +9,12 @@ import { StatsComponent } from './stats/stats.component';
 import { FeaturesComponent } from './features/features.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CardComponent } from './components/card/card.component';
+import { ProductComponent } from './product/product.component';
+import { CardDealComponent } from './card-deal/card-deal.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ClientsComponent } from './clients/clients.component';
+import { GetServiceComponent } from './get-service/get-service.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +26,12 @@ import { CardComponent } from './components/card/card.component';
     FeaturesComponent,
     ButtonComponent,
     CardComponent,
+    ProductComponent,
+    CardDealComponent,
+    TestimonialsComponent,
+    ClientsComponent,
+    GetServiceComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule],
   providers: [],
