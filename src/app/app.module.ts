@@ -14,6 +14,7 @@ import { CardDealComponent } from './card-deal/card-deal.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ClientsComponent } from './clients/clients.component';
 import { GetServiceComponent } from './get-service/get-service.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { GetServiceComponent } from './get-service/get-service.component';
     TestimonialsComponent,
     ClientsComponent,
     GetServiceComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule],
   providers: [],
