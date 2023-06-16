@@ -10,6 +10,7 @@ import { FeaturesComponent } from './features/features.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CardComponent } from './components/card/card.component';
 import { ProductComponent } from './product/product.component';
+import { CardDealComponent } from './card-deal/card-deal.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProductComponent } from './product/product.component';
     ButtonComponent,
     CardComponent,
     ProductComponent,
+    CardDealComponent,
   ],
   imports: [BrowserModule],
   providers: [],
