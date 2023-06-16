@@ -23,5 +23,10 @@
     <app-button label="Get Started"></app-button>
   </div>
 
-  <div class="flex flex-1 flex-col justify-center items-start">app-card</div>
+  <div
+    ng-init="features"
+    class="flex flex-1 flex-col justify-center items-start gap-3 py-3 my-4"
+  >
+    <app-card *ngFor="let feature of features" [dataList]="feature"></app-card>
+  </div>
 </section>

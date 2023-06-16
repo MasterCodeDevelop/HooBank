@@ -8,6 +8,7 @@ import { GetStartedComponent } from './components/get-started/get-started.compon
 import { StatsComponent } from './stats/stats.component';
 import { FeaturesComponent } from './features/features.component';
 import { ButtonComponent } from './components/button/button.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ButtonComponent } from './components/button/button.component';
     StatsComponent,
     FeaturesComponent,
     ButtonComponent,
+    CardComponent,
   ],
   imports: [BrowserModule],
   providers: [],
