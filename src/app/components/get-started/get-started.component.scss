@@ -23,13 +23,7 @@
     transform: scale(1.05);
     opacity: 0.8;
   }
-  span {
-    opacity: 0.8;
-  }
   &:hover::before {
-    opacity: 1;
-  }
-  &:hover span {
     opacity: 1;
   }
 }
