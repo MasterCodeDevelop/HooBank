@@ -13,6 +13,7 @@ import { ProductComponent } from './product/product.component';
 import { CardDealComponent } from './card-deal/card-deal.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ClientsComponent } from './clients/clients.component';
+import { GetServiceComponent } from './get-service/get-service.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ClientsComponent } from './clients/clients.component';
     CardDealComponent,
     TestimonialsComponent,
     ClientsComponent,
+    GetServiceComponent,
   ],
   imports: [BrowserModule],
   providers: [],
