@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { GetStartedComponent } from './components/get-started/get-started.component';
 import { StatsComponent } from './stats/stats.component';
 import { FeaturesComponent } from './features/features.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FeaturesComponent } from './features/features.component';
     GetStartedComponent,
     StatsComponent,
     FeaturesComponent,
+    ButtonComponent,
   ],
   imports: [BrowserModule],
   providers: [],
