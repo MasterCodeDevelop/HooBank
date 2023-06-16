@@ -11,6 +11,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { CardComponent } from './components/card/card.component';
 import { ProductComponent } from './product/product.component';
 import { CardDealComponent } from './card-deal/card-deal.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CardDealComponent } from './card-deal/card-deal.component';
     CardComponent,
     ProductComponent,
     CardDealComponent,
+    TestimonialsComponent,
   ],
   imports: [BrowserModule],
   providers: [],

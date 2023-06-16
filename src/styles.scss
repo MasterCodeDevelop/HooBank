@@ -18,3 +18,11 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+.blue__gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(122, 200, 249, 0.432) 0%,
+    #2e6eaa 100%
+  );
+  filter: blur(123px);
+}
