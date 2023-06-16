@@ -9,6 +9,7 @@ import { StatsComponent } from './stats/stats.component';
 import { FeaturesComponent } from './features/features.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CardComponent } from './components/card/card.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CardComponent } from './components/card/card.component';
     FeaturesComponent,
     ButtonComponent,
     CardComponent,
+    ProductComponent,
   ],
   imports: [BrowserModule],
   providers: [],
