@@ -12,6 +12,7 @@ import { CardComponent } from './components/card/card.component';
 import { ProductComponent } from './product/product.component';
 import { CardDealComponent } from './card-deal/card-deal.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ClientsComponent } from './clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     ProductComponent,
     CardDealComponent,
     TestimonialsComponent,
+    ClientsComponent,
   ],
   imports: [BrowserModule],
   providers: [],

@@ -1,0 +1,18 @@
+<section class="flex justify-center items-center my-4">
+  <div
+    ng-init="clients"
+    class="flex justify-center items-center flex-wrap w-full"
+  >
+    <div
+      *ngFor="let client of clients"
+      key="{client.id}"
+      class="flex justify-center items-center flex-1 sm:min-w-[192px] min-w-[120px] m-5"
+    >
+      <img
+        src="{{ '../../assets/' + client.logo }}"
+        alt="client_logo {{ client.logo }}"
+        class="sm:w-[192px] w-[100px] object-contain"
+      />
+    </div>
+  </div>
+</section>
