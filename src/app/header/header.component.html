@@ -1,7 +1,7 @@
 <header [ngClass]="['header', 'flex justify-center items-center']">
   <nav class="w-full flex justify-between items-center">
     <img
-      src="../../assets/logo.svg"
+      src="/assets/icons/logo.svg"
       alt="HooBank logo"
       class="w-[124px] h-[32px]"
     />
@@ -9,7 +9,7 @@
       <img
         class="w-[28px] h-[28px] object-contain"
         src="{{
-          this.toggle ? '../../assets/close.svg' : '../../assets/menu.svg'
+          this.toggle ? '/assets/icons/close.svg' : '/assets/icons/menu.svg'
         }}"
         alt="toggle"
       />
@@ -21,7 +21,7 @@
         'max-sm:absolute max-sm:flex-col bg-black-gradient',
 
         toggle
-          ? 'max-sm:flex sidebar max-sm:top-28 max-sm:right-8 max-sm:py-5 max-sm:px-10 max-sm:rounded-xl'
+          ? 'max-sm:flex sidebar max-sm:top-28 max-sm:right-8 max-sm:py-5 max-sm:px-10 max-sm:rounded-xl max-sm:z-20'
           : 'max-sm:hidden'
       ]"
     >
@@ -32,7 +32,7 @@
               ? 'active'
               : ''
           }}"
-          href="#{{ item.id }}"
+          href="/#{{ item.id }}"
           (click)="setActive($event)"
         >
           {{ item.title }}
