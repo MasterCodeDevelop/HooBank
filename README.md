@@ -9,7 +9,7 @@
 
 > This application was generated with Angular CLI version 16.1.0.
 
-<img src="https://github.com/MasterCodeDevelop/HooBank/blob/master/project/screen.png?raw=true" alt="screenshot HooBank" width="100%" height="auto">
+![screenshot HooBank'](https://github.com/MasterCodeDevelop/HooBank/blob/master/project/screen.png?raw=true)
 
 ## Table of Contents
 
@@ -51,30 +51,30 @@ HooBank is a comprehensive banking project which includes the following features
 
 ## Figma<a name="figma"></a>
 
-<a href="https://www.figma.com/community/file/1251937045771450545" target="_blank">Open Figma</a>
+[Open Figma](https://www.figma.com/community/file/1251937045771450545)
 
 ## 💻 Demo<a name="demo"></a>
 
-<a href="https://mastercodedevelop.github.io/HooBank/" target="_blank">Open App</a>
+[Open App](https://mastercodedevelop.github.io/HooBank/)
 
 ## 📚 Tech Stack<a name="tech-stack"></a>
 
-- <a href="https://www.npmjs.com/" target="_blank">NPM</a>
-- <a href="https://cli.angular.io/" target="_blank">Angular CLI</a> version 16.1.0.
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>
-- <a href="https://sass-lang.com/" target="_blank">CSS/SCSS</a>
-- <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
-- <a href="https://www.typescriptlang.org/" target="_blank">TypeScript CSS</a>
-- <a href="https://git-scm.com/" target="_blank">GitHub (GIT)</a>
-- <a href="https://code.visualstudio.com/" target="_blank">VSC: Visual Studio Code</a>
-- <a href="https://eslint.org" target="_blank">ESLint</a>
-- <a href="https://prettier.io" target="_blank">Prettier</a>
+- [NPM](https://www.npmjs.com)
+- [Angular CLI](https://cli.angular.io/) version 16.1.0.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS/SCSS](https://sass-lang.com)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [GitHub (GIT)](https://git-scm.com)
+- [VSC: Visual Studio Code](https://code.visualstudio.com/)
+- [ESLint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
 ## How to Launch the Application Locally <a name="how-to-launch-the-application-locally"></a>
 
 ### Step 1 - Requirements:
 
-- Install <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">Node.js and npm</a>
+- Install [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### step 2 - Installation
 
@@ -95,7 +95,7 @@ HooBank is a comprehensive banking project which includes the following features
    ```bash
    ng serve
    ```
-6. Open your web browser and navigate to <a href="http://localhost:4200/" target="_blank">localhost:4200</a>
+6. Open your web browser and navigate to http://localhost:4200/
    > The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding<a name="code-scaffolding"></a>
@@ -108,7 +108,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests<a name="running-unit-tests"></a>
 
-Run `ng test` to execute the unit tests via <a href="https://karma-runner.github.io" target="_blank">Karma</a>.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests<a name="running-end-to-end-tests"></a>
 
@@ -116,14 +116,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help<a name="further-help"></a>
 
-To get more help on the Angular CLI use `ng help` or go check out the <a href="https://angular.io/cli" target="_blank">Angular CLI Overview and Command Reference</a> page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## ❤️ Support<a name="support"></a>
 
 A simple star to this project repo is enough to keep me motivated on this project for days. If you find your self very much excited with this project let me know with a tweet.
 
 If you have any questions, feel free to reach out to me on
-<a href="https://www.linkedin.com/in/master-dev/" target="_blank">LinkedIn</a>
+[LinkedIn](https://www.linkedin.com/in/master-dev/)
 
 ## Contributing<a name="contributing"></a>
 
@@ -135,17 +135,13 @@ Contributions, issues, and feature requests are welcome. For major changes, plea
 
 > Mohamed Ali EL HAMECH
 
-- Email: <a href="master.code.develop@gmail.com" target="_blank" >master.code.develop@gmail.com</a>
-- LinkedIn: <a href="https://www.linkedin.com/in/master-dev/" target="_blank">EL HAMECH Mohamed Ali</a>
-- Github: <a href="https://github.com/MasterCodeDevelop/" target="_blank">MasterCodeDevelop</a>
+- Email: [master.code.develop@gmail.com](mailto:master.code.develop@gmail.com)
+- LinkedIn: [EL HAMECH Mohamed Ali](https://www.linkedin.com/in/master-dev/)
+- Github: [MasterCodeDevelop](https://github.com/MasterCodeDevelop)
 
-<a href="https://www.linkedin.com/in/master-dev/" target="_blank">
- <img src="https://cdn.icon-icons.com/icons2/805/PNG/48/linkedin_icon-icons.com_65929.png" alt="LinkedIn" width="auto" height="80">
-</a>
+[ ![Image](https://cdn.icon-icons.com/icons2/805/PNG/48/linkedin_icon-icons.com_65929.png) LinkedIn ](https://www.linkedin.com/in/master-dev/)
 
-<a href="https://mastercodedevelop.github.io/HooBank/" target="_blank">
- <img src="https://cdn.icon-icons.com/icons2/1996/PNG/48/code_development_github_open_source_programming_source_icon_123274.png" alt="GitHub" width="auto" height="80">
-</a>
+[ ![Image](https://cdn.icon-icons.com/icons2/1996/PNG/48/code_development_github_open_source_programming_source_icon_123274.png) GitHub](https://github.com/MasterCodeDevelop/)
 
 ## ➤ License<a name="license"></a>
 
